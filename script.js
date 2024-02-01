@@ -37,8 +37,10 @@ function every ( val) {
         function togglePower2() {
             if (togglePower !== true) {
                 container.style.display= 'none'
-                display.innerHTML = ''
+                display.innerHTML = `
+                <div style="background-color="grey"><div/>
+                `
                 document.getElementById('display').value='';
-                
+
             }
         }
