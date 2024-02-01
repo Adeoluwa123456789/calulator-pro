@@ -37,5 +37,8 @@ function every ( val) {
         function togglePower2() {
             if (togglePower !== true) {
                 container.style.display= 'none'
+                display.innerHTML = ''
+                document.getElementById('display').value='';
+                
             }
         }

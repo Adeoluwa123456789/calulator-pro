@@ -38,6 +38,36 @@
         top: 50px;
         width: 230px;
     }
+
+    #display{
+        animation: display 1s ease-in-out infinite;
+    }
+    @keyframes display {
+        0%{
+            color: red;
+            background-color: white;
+        }
+        20%{
+            color: green;
+            background-color: white;
+        }
+        40%{
+            color: blue;
+            background-color: white;
+        }
+        60%{
+            color: yellow;
+            background-color: whitesmoke;
+        }
+        80%{
+            color: red;
+            background-color: white;
+        }
+        100%{
+            color: green;
+            background-color: white;
+        }
+    }
     button{
         animation: button 10s ease-in-out infinite;
     }
@@ -156,8 +186,8 @@
         border-radius: 10px;
         position: relative;
         bottom: 700px !important;
-        left: 100px;
+        left: 10px;
         background-color: green;
-        display: none;
+        
     }
 }
