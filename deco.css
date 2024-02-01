@@ -1,0 +1,23 @@
+#world{
+    animation: world 2s ease-in-out infinite;
+}
+@keyframes world {
+    0%{
+        color: red;
+    }
+    20%{
+        color: green;
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: red;
+    }
+    100%{
+        color: green;
+    }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+">
+    <title>Calculator pro</title>
+</head>
+<body style="background-color: purple;">
+
+    <div class=" container-fluid shadow mx-auto col-3" id="container" style="display: none;">
+        <input type="text" id="display">
+        <div>
+<div id="first">
+            <button onclick="splice()" style="background-color: blueviolet;">C</button>
+            <button onclick="equal()"  style="background-color: blueviolet;">=</button>
+            <button onclick="delall()" style="background-color: blueviolet;">AC</button>
+            <button onclick="every('/')" style="background-color: blueviolet;">/</button>
+
+</div>
+
+<div id="second">
+            <button onclick="every(7)" style="background-color: blue;">7</button>
+            <button onclick="every(8)" style="background-color: blue;">8</button>
+            <button onclick="every(9)" style="background-color: blue;">9</button>
+            <button onclick="every('*')" style="background-color: blueviolet;">*</button>
+</div> 
+
+<div id="third">
+            <button onclick="every(4)" style="background-color: blue;">4</button>
+            <button onclick="every(5)" style="background-color: blue;">5</button>
+            <button onclick="every(6)" style="background-color: blue;">6</button>
+            <button onclick="every('-')" style="background-color: blueviolet;">-</button>
+</div>
+<div id="fourth">
+            <button onclick="every(1)" style="background-color: blue;">1</button>
+            <button onclick="every(2)" style="background-color: blue;">2</button>
+            <button onclick="every(3)" style="background-color: blue;">3</button>
+            <button onclick="every('+')" style="background-color: blueviolet">+</button>
+</div>
+
+<div id="fifth">
+            <button onclick="every('.')" style="background-color: blue;">.</button>
+            <button onclick="every(0)" style="background-color: blue;">0</button>
+            <button onclick="every('')" style="background-color: blueviolet;">(</button>
+            <button onclick="every()" style="background-color: blueviolet;">)</button>
+</div>
+        </div>
+    </div>
+  
+    <img src="image/kisspng-iphone-x-iphone-7-ios-12-messages-white-mobile-5b2948cfdf4383.6343998715294322719145.png" alt="" class=" animate__animated animate__heartBeat animate__delay-2s " id="phone">
+    
+        
+
+    <button id="powerButton" class="power-on " onclick="togglePower()" >On</button>
+    <button id="powerButton2" class="power-off" onclick="togglePower2()" >Off</button>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

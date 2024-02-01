@@ -22,7 +22,7 @@
         width: 352px;
         position: relative;
         bottom: -30px ;
-        right: -34px;
+        right: -15px;
         
     }
     #display{
@@ -38,6 +38,36 @@
         top: 50px;
         width: 230px;
     }
+    button{
+        animation: button 10s ease-in-out infinite;
+    }
+    @keyframes button {
+        0%{
+            color: red;
+            background-color: white;
+        }
+        20%{
+            color: green;
+            background-color: blue;
+        }
+        40%{
+            color: blue;
+            background-color: purple;
+        }
+        60%{
+            color: yellow;
+            background-color: green;
+        }
+        80%{
+            color: red;
+            background-color: blue;
+        }
+        100%{
+            color: green;
+            background-color: red;
+        }
+    }
+    
     
     
     #first button{
@@ -128,5 +158,6 @@
         bottom: 700px !important;
         left: 100px;
         background-color: green;
+        display: none;
     }
 }

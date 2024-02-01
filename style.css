@@ -43,7 +43,7 @@
     width: 28%;
     position: relative;
     bottom: -30px ;
-    right: -450px;
+    right: -429px;
     
 }
 
@@ -57,6 +57,29 @@
     color: white;
     height: 60px;
     
+}
+button{
+    animation: button 2s ease-in-out infinite;
+}
+@keyframes button {
+    0%{
+        color: red;
+    }
+    20%{
+        color: green;
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: red;
+    }
+    100%{
+        color: green;
+    }
 }
 #first button:hover{
     color: red;
