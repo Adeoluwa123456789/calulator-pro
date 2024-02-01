@@ -20,11 +20,12 @@ function every ( val) {
     }
       
     }
+    
+    
+    
     function splice(){
-        if (splice !== true) {
-            document.getElementById('display').value =''
-            
-        }
+      let clear = display.value
+      display.value = clear.slice(0, -1)
           
         }
         // window.close();
