@@ -32,6 +32,8 @@ function every ( val) {
         function togglePower() {
             if (togglePower !== true ) {
                 container.style.display = 'block' 
+        document.getElementById('display').value =''
+
             }
                     
         } 
@@ -45,3 +47,12 @@ function every ( val) {
 
             }
         }
+
+
+        // function Enable(){
+        //     document.getElementById('btn').disabled = true;
+        // }
+        // function Disable(){
+        //     document.getElementById('btn').disabled = false;
+            
+        // }
